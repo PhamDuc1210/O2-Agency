@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O2 Agency | Giải Pháp Build PC & Marketing Toàn Diện</title>
+    
+    <meta name="description" content="O2 Agency - Chuyên cung cấp hệ thống PC cấu hình cao và giải pháp Marketing thực chiến.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-[#050a15] text-white overflow-x-hidden">
+
+    <div class="blob top-0 left-0"></div>
+    <div class="blob bottom-0 right-0" style="background: #00d2ff;"></div>
+
+    <nav class="fixed w-full z-50 py-6 px-10 flex justify-between items-center glass border-b border-white/5">
+        <div class="text-2xl font-extrabold tracking-widest uppercase">
+            O2 <span class="text-blue-400">AGENCY</span>
+        </div>
+        <div class="hidden md:flex space-x-10 text-sm font-semibold uppercase tracking-wider">
+            <a href="#services" class="hover:text-blue-400 transition">Dịch Vụ</a>
+            <a href="#pc-build" class="hover:text-blue-400 transition">Build PC</a>
+            <a href="#contact" class="hover:text-blue-400 transition">Liên Hệ</a>
+        </div>
+        <button class="o2-gradient px-6 py-2 rounded-full font-bold text-sm shadow-lg shadow-blue-500/30 hover:scale-105 transition" onclick="openModal()">NHẬN BÁO GIÁ</button>
+    </nav>
+
+    <section class="min-h-screen flex items-center px-10 pt-20">
+        <div class="container mx-auto grid lg:grid-cols-2 gap-16 items-center">
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <h1 class="text-6xl lg:text-8xl font-extrabold leading-[1.1]">
+                    OXYGEN FOR <br> <span class="text-gradient">YOUR BUSINESS</span>
+                </h1>
+                <p class="text-gray-400 text-lg mt-8 max-w-xl leading-relaxed">
+                    Tại **O2 Agency**, chúng tôi cung cấp "oxy" cho doanh nghiệp thông qua các hệ thống PC hiệu năng cực đỉnh và chiến lược Marketing số dẫn đầu xu hướng 2026.
+                </p>
+                <div class="mt-12 flex flex-wrap gap-6">
+                    <a href="#pc-build" class="o2-gradient px-10 py-4 rounded-xl font-bold text-lg hover:shadow-2xl transition">Xem Cấu Hình PC</a>
+                    <a href="#" class="border border-white/20 px-10 py-4 rounded-xl font-bold text-lg hover:bg-white/5 transition">Về Chúng Tôi</a>
+                </div>
+            </div>
+            
+            <div class="relative" data-aos="zoom-in" data-aos-delay="200">
+                <div class="relative z-10 rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&q=80&w=1200" alt="Workstation Build">
+                </div>
+                <div class="absolute -bottom-10 -left-10 glass p-6 rounded-2xl" data-aos="fade-up" data-aos-delay="500">
+                    <p class="text-blue-400 font-bold text-2xl">99%</p>
+                    <p class="text-xs uppercase text-gray-400">Client Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-32 px-10 bg-white/5">
+        <div class="container mx-auto">
+            <div class="text-center mb-20" data-aos="fade-up">
+                <h2 class="text-4xl font-bold uppercase tracking-tighter">Hệ Sinh Thái O2</h2>
+                <div class="h-1 w-20 o2-gradient mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass p-10 rounded-3xl hover:bg-white/10 transition group" data-aos="fade-up">
+                    <div class="w-14 h-14 o2-gradient rounded-2xl mb-6 flex items-center justify-center font-bold text-2xl">PC</div>
+                    <h3 class="text-2xl font-bold mb-4">Build PC High-end</h3>
+                    <p class="text-gray-400 leading-relaxed">Lắp đặt hệ thống Workstation cho thiết kế đồ họa, Render 3D và Gaming chuyên nghiệp.</p>
+                </div>
+
+                <div class="glass p-10 rounded-3xl hover:bg-white/10 transition group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-14 h-14 bg-purple-600 rounded-2xl mb-6 flex items-center justify-center font-bold text-2xl">M</div>
+                    <h3 class="text-2xl font-bold mb-4">Digital Marketing</h3>
+                    <p class="text-gray-400 leading-relaxed">Xây dựng thương hiệu, chạy quảng cáo Performance và quản lý Social Media toàn diện.</p>
+                </div>
+
+                <div class="glass p-10 rounded-3xl hover:bg-white/10 transition group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-14 h-14 bg-green-500 rounded-2xl mb-6 flex items-center justify-center font-bold text-2xl">IT</div>
+                    <h3 class="text-2xl font-bold mb-4">Web Performance</h3>
+                    <p class="text-gray-400 leading-relaxed">Thiết kế Landing Page chuẩn SEO, tối ưu tốc độ load trang và trải nghiệm người dùng.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<div class="fixed bottom-6 right-6 z-[100] flex flex-col gap-4">
+    <a href="https://zalo.me/0963981158" target="_blank" class="w-14 h-14 bg-blue-500 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform border-2 border-white/20">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" class="w-8 h-8" alt="Zalo">
+    </a>
+   <a href="https://m.me/O2.com.vn" target="_blank" class="w-14 h-14 bg-[#0084FF] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform border-2 border-white/20">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2C6.477 2 2 6.145 2 11.258c0 2.908 1.463 5.496 3.743 7.152V22l3.41-1.871c.883.245 1.815.38 2.847.38 5.523 0 10-4.145 10-9.258S17.523 2 12 2zm1.077 12.428l-2.585-2.754-5.044 2.754 5.548-5.892 2.628 2.754 4.981-2.754-5.528 5.892z"/>
+        </svg>
+    </a>
+</div>
+    <section id="contact" class="py-20 px-10 text-center">
+        <div class="max-w-4xl mx-auto glass p-16 rounded-[40px] border-blue-500/30" data-aos="zoom-in">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-8">Sẵn sàng bứt phá cùng <span class="text-blue-400">O2 Agency?</span></h2>
+            <form class="flex flex-col md:flex-row gap-4 justify-center">
+                <input type="email" placeholder="Email của bạn" class="bg-white/10 border border-white/20 px-6 py-4 rounded-xl focus:outline-none focus:border-blue-500 md:w-80 text-white">
+                <button type="submit" class="o2-gradient px-10 py-4 rounded-xl font-bold hover:scale-105 transition">GỬI YÊU CẦU</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-12 px-10 border-t border-white/5 bg-[#030712]">
+    <div class="container mx-auto grid md:grid-cols-2 gap-8 text-sm text-gray-400">
+        <div class="text-left">
+            <p class="font-bold text-white mb-2 uppercase">Công ty CP Truyền thông và Công nghệ O2</p>
+            <p>📍 Địa chỉ: Số 2/335B Quang Trung, Uông Bí, Quảng Ninh</p>
+            <p>📧 Email: o2media.com.vn@gmail.com</p>
+            <p>📞 Hotline: 093 655 85 38</p>
+        </div>
+        <div class="md:text-right flex flex-col justify-end">
+            
+            <p class="text-xs mt-1">Sản phẩm Demo bởi lập trình viên Phạm Minh Đức.</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/script.js"></script>
+    <div id="quote-modal" class="fixed inset-0 z-[100] hidden flex items-center justify-center bg-black/80 backdrop-blur-sm">
+    <div class="glass p-8 rounded-3xl max-w-md w-full mx-4 border border-blue-500/50 relative">
+        <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white">&times;</button>
+        <h3 class="text-2xl font-bold mb-4 text-gradient">NHẬN BÁO GIÁ CHI TIẾT</h3>
+        <form class="space-y-4">
+            <input type="text" placeholder="Họ và tên" class="w-full bg-white/5 border border-white/10 p-3 rounded-xl focus:border-blue-500 outline-none">
+            <input type="tel" placeholder="Số điện thoại" class="w-full bg-white/5 border border-white/10 p-3 rounded-xl focus:border-blue-500 outline-none">
+            <select class="w-full bg-[#0f172a] border border-white/10 p-3 rounded-xl focus:border-blue-500 outline-none text-gray-400">
+                <option>Chọn nhu cầu của bạn</option>
+                <option>Build PC Đồ họa / Render</option>
+                <option>Build PC Gaming</option>
+                <option>Dịch vụ Marketing toàn diện</option>
+            </select>
+            <button class="w-full o2-gradient py-3 rounded-xl font-bold hover:scale-105 transition">GỬI YÊU CẦU NGAY</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
