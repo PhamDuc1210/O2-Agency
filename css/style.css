@@ -1,22 +1,21 @@
-/* style.css */
 body { 
     font-family: 'Plus Jakarta Sans', sans-serif; 
     scroll-behavior: smooth; 
 }
 
-/* Gradient đặc trưng của O2 */
+
 .o2-gradient { 
     background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%); 
 }
 
-/* Hiệu ứng kính mờ (Glassmorphism) */
+
 .glass { 
     background: rgba(255, 255, 255, 0.03); 
     backdrop-filter: blur(15px); 
     border: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
-/* FIX: Hiệu ứng chữ Gradient - Không còn "thanh máu" */
+
 .text-gradient { 
     background: linear-gradient(to right, #00d2ff, #92fe9d); 
     -webkit-background-clip: text;
@@ -25,7 +24,6 @@ body {
     display: inline-block;
 }
 
-/* Đốm màu trang trí nền */
 .blob { 
     position: absolute; 
     width: 300px; 
@@ -36,7 +34,7 @@ body {
     z-index: -1; 
 }
 
-/* Logo phát sáng Neon */
+
 .logo-neon {
     color: #fff;
     text-shadow: 0 0 7px #00d2ff, 0 0 21px #00d2ff, 0 0 42px #3a7bd5;
